@@ -26,13 +26,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+    .forEach is an array method that works as an iterator with the capabilities of a for loop built in. It will run a function on each element based on the way it is set to iterate. .map is an array method that extracts the parts of an array that you specify and sets that data in a new array.
+
 2. Explain the difference between a callback and a higher order function.
+
+    A callback is a function that is created for and can be passed as a parameter in a higher order function. A higher order function is the function that specifies the callback function as a parameter. Callback = hand & Higher order function = glove
 
 3. What is closure?
 
+    Closure is something javascript uses to determine what a function might have access to. A variable defined inside a function could be accessed from another function inside that one.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. Window Binding - gives us everything in the global scope because there is no object binding
+    2. Implicit Binding - Object declared and now bound
+    3. 'New' Binding - a new object with the constructor
+    4. Explicit Binding - we use call and apply
+
 5. Why do we need super() in an extended class?
+
+    We use super() in an extended class in order to call the parent's properties and methods.
 
 ### Task 1 - Project Set up
 
